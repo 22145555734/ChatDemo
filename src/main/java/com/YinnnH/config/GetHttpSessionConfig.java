@@ -10,6 +10,7 @@ public class GetHttpSessionConfig extends ServerEndpointConfig.Configurator {
 
     private int teasr2;
     public int sss = 0;
+    public int sss1 = 0;
     @Override
     public void modifyHandshake(ServerEndpointConfig serverEndpointConfig, HandshakeRequest handshakeRequest, HandshakeResponse handshakeResponse) {
         //获取httpSession对象
