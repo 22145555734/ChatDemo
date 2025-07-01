@@ -18,6 +18,7 @@ import com.YinnnH.service.impl.CaptchaServiceImpl;
 public class CaptchaController {
     @Autowired
     private CaptchaService captchaService;
+    private int a;
 
     @GetMapping("/captcha")
     public Result getCaptcha(@RequestParam Captcha captcha) {
