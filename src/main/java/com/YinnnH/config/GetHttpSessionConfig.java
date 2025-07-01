@@ -8,6 +8,7 @@ import javax.websocket.server.ServerEndpointConfig;
 
 public class GetHttpSessionConfig extends ServerEndpointConfig.Configurator {
 
+    private int teasr2;
     @Override
     public void modifyHandshake(ServerEndpointConfig serverEndpointConfig, HandshakeRequest handshakeRequest, HandshakeResponse handshakeResponse) {
         //获取httpSession对象
